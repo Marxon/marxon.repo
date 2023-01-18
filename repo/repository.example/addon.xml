@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="MRX01" name="MarxonMRX-Repo" version="1.0" provider-name="Marxon">
+<addon id="MRX01" name="marxon.rep" version="1.0" provider-name="Marxon">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/YOUR_USERNAME_HERE/REPOSITORY_NAME_HERE/DEFAULT_BRANCH_NAME_HERE/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/YOUR_USERNAME_HERE/REPOSITORY_NAME_HERE/DEFAULT_BRANCH_NAME_HERE/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/YOUR_USERNAME_HERE/REPOSITORY_NAME_HERE/DEFAULT_BRANCH_NAME_HERE/repo/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/Marxon/marxon.repo/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Marxon/marxon.repo/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Marxon/marxon.repo/master/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>MarxonMRX-Repo</summary>
+        <summary>marxon.repo</summary>
         <description>KODI Repo from Marxon</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
